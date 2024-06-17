@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="phone.css">
+    <link rel="stylesheet" href="tablet.css">
+    <link rel="stylesheet" href="desktop.css">
+    <title>浮洲有什麼？</title>
+</head>
+<body>
+    <h1>浮洲</h1>
+     
+    <main>
+        <div class="blank">
+        </div>
+
+        <div class="logoisland">
+            <img src="/img/LOGO_island.svg" alt="浮洲識別系統LOGO_島">
+        </div>
+    
+        <div class="logowater">
+            <img src="/img/LOGO_water.svg" alt="浮洲識別系統LOGO_水波">
+        </div>
+    </main>
+    
+    <h2>有什麼？</h2>
+    
+    <div class="arrow">
+    <img src="/img/arrow.svg" alt="向下滑動">
+    </div>
+
+    <script>
+        window.addEventListener('scroll', function() { // 監聽滾動功能
+            if (window.scrollY > 150) { //滾動的閾值
+                window.location.href = 'page.html'; // 轉換頁面
+            }
+        });
+    </script>
+
+</body>
+</html>
